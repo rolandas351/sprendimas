@@ -6,7 +6,7 @@ body {
 .container {
   width: 200px;
   height: 200px;
-  border: 20px blue solid;
+  border: 10px blue solid;
   position: relative;
   display: inline-block;
   flex-direction: row;
