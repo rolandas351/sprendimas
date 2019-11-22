@@ -1,12 +1,12 @@
 
 body {
-  background-color: red;
+  background-color: greenyellow;
 }
 
 .container {
   width: 200px;
   height: 200px;
-  border: 2px blue solid;
+  border: 20px blue solid;
   position: relative;
   display: inline-block;
   flex-direction: row;
