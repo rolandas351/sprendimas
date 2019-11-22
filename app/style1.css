@@ -1,0 +1,36 @@
+
+body {
+  background-color: brown;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  border: 2px blue solid;
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+margin-left: 500px;
+
+
+  }
+    .container::before {
+      content: "";
+      position: absolute;
+     left: 100px;
+     top :-200px;
+      display: inline-block;
+      z-index: -1;
+
+      
+      width: 10px;
+      height: 100%;
+
+      background-color: black;
+      margin: 0 auto;
+  }
+
+
+
+
