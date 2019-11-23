@@ -1,0 +1,29 @@
+@media (max-width:1000px) {
+               
+            .container-pirmas-nav{
+                flex-direction: column;
+            }
+            .containerpirmassekantis {
+                flex-direction: column;
+            }
+
+            .navi {
+                display: none;
+            }
+                   
+        }
+       
+        .burger:hover{
+            .navi {
+                 opacity: 1;
+            }
+        }
+        
+       
+    
+   
+    @media (min-width:800px) {
+        .burger:after {
+            opacity: 0;
+        }
+    }
