@@ -1,2 +1,111 @@
 
- 
+ .container-ketvirtas {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 600px;
+      border:2px solid red;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;  
+      align-items: center;        
+    }
+
+    .containerketvirtaspirmas {
+        max-width: 600px;
+          border:2px solid red;
+          margin: 0 auto ;
+     }
+     .containerketvirtasvidurys {
+        max-width: 400px;
+          border:2px solid red;
+          margin: 0 auto ;
+          text-align: center;
+     }
+     .containerketvirtapaskutine {
+        width: 100%;
+    
+          border:2px solid red;
+          margin: 0 auto ;
+          display: flex;
+          margin-top: 100px;
+          justify-content: space-around;
+        
+                  
+          
+     }
+     .containerketvirtapaskutinekaire {
+        width: 20%;
+          border:2px solid red;
+          margin: 0 auto ;
+          position: relative;
+          text-align: center;
+        
+          
+     }
+     .containerketvirtapaskutinevidurys {
+        width: 20%;
+          border:2px solid red;
+          margin: 0 auto ;
+          position: relative;
+          text-align: center;
+          
+     }
+     .containerketvirtapaskutinedesine {
+        width: 20%;
+          border:2px solid red;
+          margin: 0 auto ;
+          position: relative;
+          text-align: center;
+          
+     }
+     .containerketvirtapaskutinekaire::before {
+        content: "";
+        background-image: url("group 74.svg");
+        width: 50px;
+        height: 50px;
+        
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+    right: 40%;
+    top: -70px;
+       
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position: center center; 
+     
+    }
+    .containerketvirtapaskutinevidurys::before {
+        content: "";
+        background-image: url("group 73.svg");
+        width: 50px;
+        height: 50px;
+      
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+    right: 40%;
+    top: -70px;
+     
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position: center center; 
+     
+    }
+    .containerketvirtapaskutinedesine::before {
+        content: "";
+        background-image: url("group 72.svg");
+        width: 50px;
+        height: 50px;
+        
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+    right: 40%;
+    top: -70px;
+       
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position: center center; 
+     
+    }

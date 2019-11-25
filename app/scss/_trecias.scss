@@ -1,2 +1,83 @@
 
- 
+ .container-trecias {
+    margin: 0 auto;
+    max-width: 1400px;
+      border:2px solid red;
+      display: flex;
+      background-color: #1C1C1C;
+      justify-content: space-around;
+      align-items: center;            
+    }
+    .containertreciasdesine {
+        width: 400px;
+          border:2px solid red;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start; 
+     }
+     .containertreciaskaire {
+        width: 400px;
+        height: 170px;
+          border:2px solid green;
+          background-image: url("Group85.svg");
+        background-size: cover;
+        background-position: center center;   
+     }
+
+     .containertreciasdesinevirsus {
+        margin: 20px;
+        max-width: 270px;
+        max-height: 100px;
+          border:2px solid red; 
+     }
+     .containertreciasdesinevidurys {
+        margin: 20px;
+        max-width: 400px;
+        max-height: 100px;
+          border:2px solid red;
+     }
+.containertreciasdesineapaciapirmas, .containertreciasdesineapaciaantras  {
+    margin: 20px;
+    margin-left: 80px;
+    max-width: 400px;
+    max-height: 100px;
+      border:2px solid red;
+      position: relative;
+}
+.containertreciasdesineapaciapirmas::before {
+    content: "";
+    background-image: url("Path 81.svg");
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: -70px;
+    background-color: #E27866;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center center; 
+}
+.containertreciasdesineapaciaantras::before {
+    content: "";
+    background-image: url("Path 82.svg");
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left:  -70px;
+    background-color: #E27866;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center center;
+}
+.juostarozine {
+    background-color: #E27866;
+    width: 200px;
+    height: 2px;
+    margin:20px;
+}

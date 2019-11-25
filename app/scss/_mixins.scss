@@ -1,29 +1,43 @@
-@media (max-width:1000px) {
+@media (max-width:800px) {
                
+            .container-pirmas-nav-desine{
+                flex-direction: column;
+            }
             .container-pirmas-nav{
+                flex-direction: column;
+            }
+            .container-pirmas-nav-kaire{
                 flex-direction: column;
             }
             .containerpirmassekantis {
                 flex-direction: column;
             }
+.containerantrasdesine {
+    margin: 0 auto;
+}
+            .container-antras, .container-trecias {
+                flex-direction: column;
+               
+            }
 
-            .navi {
-                display: none;
-            }
-                   
-        }
-       
-        .burger:hover{
-            .navi {
+
+
+h1, h8 {
+    font-size: 16px;
+}
+   
+          
+               .burger {
+            
                  opacity: 1;
-            }
+            
         }
         
-       
+    }
     
    
     @media (min-width:800px) {
-        .burger:after {
+        .burger {
             opacity: 0;
         }
     }
