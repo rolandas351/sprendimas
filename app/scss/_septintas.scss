@@ -1,2 +1,53 @@
 
- 
+ .container-septintas {
+    margin: 0 auto;
+    max-width: 1400px;
+    // height: 500px;
+      border:2px solid red;
+      background-color: #E27866;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;  
+      align-items: center;  
+    }
+
+
+    .containersestaspirmas {
+        border: 2px solid red;
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+
+    .send {
+        
+        width: 350px;
+        height: 300px;
+        // border: 2px solid blue;
+        background-color:#FFFFFF;
+        border-radius: 10px;
+    position: relative;
+    // flex-direction: column;
+    
+    margin-bottom: 45px;
+    }
+
+    .submitassend {
+        
+        background-color: #41D395;
+        // height: 50px;
+        width: 200px;
+        border: 2px solid red;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 10px;
+        // text-justify: center;
+        // align-items: center;
+        // position: absolute;
+        padding:16px
+        
+        
+        
+    }
+
+   

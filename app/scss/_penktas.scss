@@ -1,2 +1,165 @@
+.container-penktas {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 800px;
+      border:2px solid red;
+      display: flex;
+      flex-direction: column;
+      background-color: #6696E2;
+      justify-content: center;  
+      align-items: center;  
+    }
 
+
+    .containerpenktaspirmas {
+        border: 2px solid red;
+        text-align: center;
+    }
+
+
+    
+    
+    .juostazalia {
+    background-color: #41D395;
+    width: 200px;
+    height: 2px;
+    margin:20px;
+}
+
+.containerpenktastrecias {
+    border: 2px solid red;
+        text-align: center;
+}
+
+.containerpenktasketvirtas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
  
+}
+.containerpenktasketvirtaskaire {
+    max-width: 25%;
+    width: 350px;
+    margin: 20px;
+   
+   
+
+}
+
+    .containerpenktasketvirtaskairepirmas {
+        background-color: black;
+        text-align: center;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .containerpenktasketvirtaskaireantras {
+        background-color: black;
+        text-align: center;
+    }
+.containerpenktasketvirtaskairetrecias {
+    background-color: black;
+    text-align: center;
+}
+.containerpenktasketvirtaskaireketvirtas {
+    background-color: #41D395;
+    height: 6px;
+    text-align: center;
+}
+.containerpenktasketvirtaskairepenktas {
+    max-width: 400px;
+    border:2px solid red;
+    margin: 0 auto ;
+    background-color: white;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    
+  }
+  .containerpenktasketvirtasvidurys {
+    
+    max-width: 25%;
+    width: 350px;
+    margin: 20px;
+
+}
+  .containerpenktasketvirtasviduryspirmas {
+    background-color: black;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.containerpenktasketvirtasvidurysantras {
+    background-color: black;
+    text-align: center;
+}
+.containerpenktasketvirtasvidurystrecias {
+background-color: black;
+text-align: center;
+}
+.containerpenktasketvirtasvidurysketvirtas {
+background-color: #41D395;
+height: 60px;
+text-align: center;
+}
+.containerpenktasketvirtasviduryspenktas {
+max-width: 400px;
+border:2px solid red;
+margin: 0 auto ;
+background-color: white;
+text-align: center;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.containerpenktasketvirtasdesine {
+    
+    max-width: 25%;
+    width: 350px;
+    margin: 20px;
+}
+.containerpenktasketvirtasdesinepirmas {
+    background-color: black;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.containerpenktasketvirtasdesineantras {
+    background-color: black;
+    text-align: center;
+}
+.containerpenktasketvirtasdesinetrecias {
+background-color: black;
+text-align: center;
+}
+.containerpenktasketvirtasdesineketvirtas {
+background-color: #41D395;
+height: 6px;
+text-align: center;
+}
+.containerpenktasketvirtasdesinepenktas {
+max-width: 400px;
+border:2px solid red;
+margin: 0 auto ;
+background-color: white;
+text-align: center;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.containerpenktasketvirtaskaireantras::before {
+    content:" $ ";
+    color: white; 
+    font-size: 36px; 
+}
+.containerpenktasketvirtasvidurysantras::before {
+    content:" $ ";
+    color: white; 
+    font-size: 36px;  
+}
+.containerpenktasketvirtasdesineantras::before {
+    content:" $ ";
+    color: white;  
+    font-size: 36px; 
+}

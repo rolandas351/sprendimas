@@ -8,8 +8,9 @@
         background-image: url("facebook-logo.svg");
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: 50px;
-                
+       
+
+             
       }
       .navifooterinstagram {
       
@@ -20,30 +21,30 @@
         background-image: url("instagram-logo.svg");
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: 50px;
+       
       }
   
    .navifootertweeter {
       
         width: 30px;
         height: 30px;
-      //  margin:30px;
+    
         border: 2px solid blue;
         background-image: url("twitter.svg");
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: 50px;
+        
       }
       .navifooterprint {
       
         width: 30px;
         height: 30px;
-      //  margin:30px;
+      
         border: 2px solid blue;
         background-image: url("pinterest.svg");
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: 50px;
+       
       }
       .navifooterwifi {
       
@@ -54,5 +55,25 @@
         background-image: url("Group 87.svg");
         background-repeat: no-repeat;
         background-position: center center;
-        margin-top: 50px;
+        
+       
       }
+
+      .containerpirmastreciasdesine {
+        width: 100%;
+        max-width: 600px;
+         border:2px solid green;
+         display: flex;
+     justify-content:space-around;
+     align-items: center;
+     
+        }
+      .containerastuntaskaire {
+        width: 100%;
+        max-width: 600px;
+         border:2px solid green;
+         display: flex;
+     justify-content:space-around;
+     margin-left: 150px;
+     align-items: center;
+        }

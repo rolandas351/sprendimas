@@ -34,8 +34,10 @@ z-index: 1;
       margin-left: 150px;
       border: 2px solid blue;
       background-image: url("Group85.svg");
-      background-size: cover;
+      background-size: 110px;
       background-position: center center;
+      background-repeat: no-repeat;
+      
   }
       .burger {
         width: 20%;
@@ -50,6 +52,7 @@ z-index: 1;
     width: 80px;
     height: 50px; 
     border: 2px solid blue;
+    position: relative;
   }  
   .navi:active {
     background-color: green;
@@ -60,24 +63,28 @@ z-index: 1;
     color: white;
     transition: 0.5s;   
     }
+ 
+      
   .containerpirmassekantis {
     width: 100%;
     max-width: 1400px;
+    // max-height: 2500px;
     border:2px solid green;
     background-image: url("photo1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
     display: flex;
-    margin-top: 80px;
+    margin-top: 50px;
     z-index: -1;
   }
   .container-pirmassekantisfonas{
+    max-height: 2000px;
       background-color: #1C1C1C;
       opacity: 0.63;
       max-width: 1400px;
       width: 100%;
-      height: 640px;
+      height: 100%;
       position: absolute;
       display: inline-block;
    z-index: -1; 
@@ -91,8 +98,8 @@ z-index: 1;
    justify-content: space-around;
 }
 .pirmasdesine {
-    width: 50%;
-    max-width: 700px;
+    width: 35%;
+    max-width: 450px;
     height: 640px;
     display: flex;
     flex-direction: column;
@@ -105,8 +112,9 @@ z-index: 1;
         margin-left: 150px;
         border: 2px solid blue;
         background-image: url("Group85.svg");
-        background-size: cover;
+        background-size: 240px;
         background-position: center center;
+        background-repeat: no-repeat;
     }    
     .bigtext {
         margin-left: 150px;
@@ -123,32 +131,43 @@ z-index: 1;
     }
     .downloadbtn {
         width: 120px;
-        height: 10%;
+        // height: 10%;
         margin-left: 150px;
        border: 2px solid white;
-       text-align: center;
+      //  text-align: center;
+      //  padding: 11px;
     }
     .getstarted {
-        width: 40%;
-        height: 70%;
-        margin-left: 150px;
-        border: 2px solid blue;
+        min-width: 300px;
+        // height: 70%;
+        
+        // border: 2px solid blue;
         background-color:#FFFFFF;
-        border-radius: 5px;
+        border-radius: 10px;
       position: relative;
+    
+     margin-left: 150px;
     }
     .juostasubmit {
         background-color: gray;
         width: 40%;
         height: 2px;
-        margin-left: 10px;   
+        margin-left: 10px;  
+        margin:10px;
+        
+        // margin:0 auto;
     }
+
+  
     .submitas {
         
         background-color: #41D395;
-        height: 57px;
-        width: 100%;
+        // height: 57px;
+        // width: 100%;
         text-align: center;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 20px;
         
     }
     .containerpirmastrecias {
@@ -164,19 +183,21 @@ z-index: 1;
    flex-direction: column;
    margin-left: 150px; 
     }
-    .containerpirmastreciasdesine {
-      width: 100%;
-      max-width: 600px;
-       border:2px solid green;
-       display: flex;
-   justify-content:space-around;
-   margin-right: 150px;
-      }
+    
     .pirmastreciastekstas {
       max-width: 400px;
           border: 2px solid blue;
     }
-  
+  .navi::before {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #E27866;
+    // border: 2px solid white;
+    position:absolute ;
+    bottom: 0;
+    opacity: 1;
+  }
 
 
   
