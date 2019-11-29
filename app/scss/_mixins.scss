@@ -1,8 +1,6 @@
 @media (max-width:800px) {
                
-            .container-pirmas-nav-desine{
-                flex-direction: column;
-            }
+           
             .container-pirmas-nav{
                 flex-direction: column;
             }
@@ -20,24 +18,36 @@
                
             }
 
-
-
-h1, h8 {
+.h1, h8 {
     font-size: 16px;
 }
-   
+.menu-desktop {
+    opacity: 0;
+}
+
+.menu-mobile {
+    opacity:0;
+}
+
+
+}
           
-               .burger {
-            
-                 opacity: 1;
-            
-        }
+      
         
-    }
+    
     
    
     @media (min-width:800px) {
-        .burger {
-            opacity: 0;
-        }
+      
+  .menu-desktop {
+      opacity: 1;
+  }
+
+  .menu-mobile {
+      opacity:0;
+  }
+
+  .mobile-burger {
+      opacity: 0;
+  }
     }

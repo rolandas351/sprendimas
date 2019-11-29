@@ -14,32 +14,10 @@
         border: 2px solid red;
         text-align: center;
         margin-top: 40px;
+        padding-top: 50px;
         
     }
-    .containersestasapatinis {
-        // border: 2px solid green;
-        text-align: center;
-        // margin: 40px;
-        width: 100px;
-        height: 5px;
-        display:flex;
-        justify-content: space-between;
-        margin-bottom: 60px;
-
-        
-    }
-    .containersestasapatinisrutuliukai {
-        border: 2px solid #E27866;
-        border-radius: 50%;
-        // text-align: center;
-    //   margin: 10px;
-        width: 10px;
-        height: 10px;
-
-        
-    }
-
-       
+             
     .juostamelyna {
     background-color:#6696E2;
     width: 80px;
@@ -52,7 +30,7 @@
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
-    margin-bottom: 90px;
+    // margin-bottom: 90px;
     // background-color: black;
     // overflow: ; 
 //     position: relative;
@@ -60,12 +38,34 @@
 
 
 }
-.containersestastreciaspirmas {
+.swiper-container {
+   width: 1100px;
+    height: 400px;
+    // padding: 50px;
+   
+   
+
+}
+.swiper-slide {
     display: flex;
- flex-direction: column;
- align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  
+}
+
+.swiper-pagination-bullet {
+   width: 10px;
+   height: 10px;
+    border:2px solid #E27866;
+    background-color: white;
+    opacity: 1;
+}
 
 
+
+.swiper-pagination-bullet-active {
+    background: #E27866;
 }
 
 .containersestastreciaspirmaspirmastekstas {

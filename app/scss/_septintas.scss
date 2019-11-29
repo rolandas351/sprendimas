@@ -2,7 +2,7 @@
  .container-septintas {
     margin: 0 auto;
     max-width: 1400px;
-    // height: 500px;
+    height: 700px;
       border:2px solid red;
       background-color: #E27866;
       display: flex;
@@ -12,42 +12,31 @@
     }
 
 
-    .containersestaspirmas {
+    .containerseptintaspirmas {
         border: 2px solid red;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 80px;
+        position: relative;
         
     }
 
     .send {
         
-        width: 350px;
+        width: 400px;
         height: 300px;
         // border: 2px solid blue;
         background-color:#FFFFFF;
         border-radius: 10px;
-    position: relative;
-    // flex-direction: column;
-    
+        display: inline-block; 
+        position: relative;
     margin-bottom: 45px;
+    text-align: center;
+   
     }
 
-    .submitassend {
-        
-        background-color: #41D395;
-        // height: 50px;
-        width: 200px;
-        border: 2px solid red;
-        text-align: center;
-        margin: 0 auto;
-        border-radius: 10px;
-        // text-justify: center;
-        // align-items: center;
-        // position: absolute;
-        padding:16px
+    
         
         
-        
-    }
+    
 
    

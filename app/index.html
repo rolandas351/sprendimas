@@ -3,24 +3,43 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HOMEPAGE</title>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
 	<body>
-			<!-- <div class="container-main"> -->			
-		<div class="container-pirmas">
+			<!-- <div class="container-main">			 -->
+		<div class="container-pirmas" id="container-pirmas">
 				<div class="container-pirmas-nav">
 						<div class="container-pirmas-nav-kaire">
+								
+					<input class="checkbox" id="checkbox" type="checkbox">
+					<label class="mobile-burger" for="checkbox"></label>
 					<div class="logo"></div>
-					<div class="burger"><a></a></div>
+					<!-- <div class="burger"><a></a></div>	 -->
+					<div class="menu-mobile">
+					<div class="navi"><a href="#container-antras"> About</a></div>
+					<div class="navi"><a href="#container-penktas"> Pricing</a></div>
+					<div class="navi"><a href="#container-sestas"> Reviews</a></div>
+					<div class="navi"><a href="#container-septintas"> Contact</a></div>
+					</div>
 				</div>
+				
 				<div class="container-pirmas-nav-desine">
-								<div class="navi"><a> Features</a></div>
-								<div class="navi"><a> About</a></div>
-								<div class="navi"><a> Pricing</a></div>
-								<div class="navi"><a> Reviews</a></div>
-								<div class="navi"><a> Contact</a></div>
-							</div>							 
+					
+					<div class="menu-desktop">
+						<div class="navi"><a href="#container-pirmas">Features</a></div>
+						<div class="navi"><a href="#container-antras"> About</a></div>
+						<div class="navi"><a href="#container-penktas"> Pricing</a></div>
+						<div class="navi"><a href="#container-sestas"> Reviews</a></div>
+						<div class="navi"><a href="#container-septintas"> Contact</a></div>
+								</div>
+							</div>
+						</div>
+							
+
+
+						</div>						 
 				</div>	
 				<div class="containerpirmassekantis">
 					<div class="pirmaskaire">
@@ -39,31 +58,37 @@
 						
 					<h3>Try Your <SPAN style="color:#E27866;font-size:20px">FREE</span> Trial Today</h3>
 						<h5>Your details</h5>
-							 <input type="text" name="FirstName" placeholder="first name"><br>
-							<div class="juostasubmit"></div>
-							<input type="text" name="LastName" placeholder="last name"><br>
-							<div class="juostasubmit"></div>
-							<input type="text" name="email" placeholder="email"><br>
-							</form>
-							<div class="juostasubmit"></div>
-							<h5>Type of subscription</h5>
-							<div class="custom-radio">
-									<input type="radio" id="radio_1" name="radio-label" value="1">
-									<label for="radio_1">
-									  <div class="radio-circle"></div>
-									  <h6>MONTHLY</h6>
-									</label>
-								  </div>
-								  
-								  <div class="custom-radio">
-									<input type="radio" id="radio_2" name="radio-label" value="2">
-									<label for="radio_2">
-									  <div class="radio-circle"></div>
-									  <h6>YEARLY</h6>
-									</label>
-								  </div>
-						<div class="submitas"><h12>GET STARTED</h12></div>
+						<div class="sendpirmas">
+								
+								<form action="/action_page.php">
+										 <input type="text" name="FirstName" placeholder="first name"><br>
+										
+										<input type="text" name="LastName" placeholder="last name"><br>
+										
+										<input type="text" name="email" placeholder="email"><br>
+										
+									
+										
+										<div class="custom-radio">
+												<input type="radio" id="radio_1" name="radio-label" value="1">
+												<label for="radio_1">
+												  <div class="radio-circle"></div>
+												  <h6>PERSONAL</h6>
+												</label>
+											  </div>
+											  
+											  <div class="custom-radio">
+												<input type="radio" id="radio_2" name="radio-label" value="2">
+												<label for="radio_2">
+												  <div class="radio-circle"></div>
+												  <h6>COMPANY</h6>
+												</label>
+											  </div>
+									<input type="submit" value="GET STARTED"	>
+									</form>		
+										</div>
 				</div>
+</div>
 </div>
 			</div>
 			<div class="containerpirmastrecias">
@@ -84,13 +109,18 @@
 
 	
 
-		<div class="container-antras">
+		<div class="container-antras" id="container-antras">
 				<div class="container-antrasfonas"></div>
 			<div class="containerantraskaire">
-			<div class="containerantraskairetekstas"><h2>REGISTER</h2></div>
-			<div class="containerantraskairetekstas"><h2>APPLY</h2></div>
-			<div class="containerantraskairetekstas"><h2>RECEIVE</h2></div>
+			<div class="containerantraskairetekstas"><h14>REGISTER</h14></div>
+			<div class="containerantraskairetekstas"><h14>APPLY</h14></div>
+			<div class="containerantraskairetekstas"><h14>RECEIVE</h14></div>
 			</div>
+			<div class="swiper-container-antras"> 
+			 <div class="swiper-wrapper">
+				
+					<div class="swiper-slide">
+						<div class="slide2"> 
 			<div class="containerantrasvidurys">
 				<div class="containerantrasvidurystekstas"><h1>Tabs with soft transitioning
 					effect. Explained propriety
@@ -112,8 +142,64 @@
 				<div class="containerantrasdesineapacia"></div>
 		</div>
 </div>
-		
-		<div class="container-trecias">
+</div>
+<div class="swiper-slide">
+		<div class="slide2">
+		<div class="containerantrasvidurys">
+			<div class="containerantrasvidurystekstas"><h1>Tabs with soft transitioning
+				effect. Explained propriety
+				of out perpetual his you.</h1></div>
+				<div class="containerantrasvidurystekstas"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+					bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+					justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+					penatibus et magnis dis parturient montes.
+					<br>
+					<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+					bibendum laoreet.</h2></div>
+					</div>
+			<div class="containerantrasdesine">
+			<div class="containerantrasdesinevirsus">
+			<div class="containerantrasdesinevirsusfotokaire"></div>
+			<div class="containerantrasdesinevirsusfotodesine"></div>
+			</div>
+			<div class="containerantrasdesineapacia"></div>
+	</div>
+</div>
+</div>
+<div class="swiper-slide">
+		<div class="slide2">
+		<div class="containerantrasvidurys">
+			<div class="containerantrasvidurystekstas"><h1>Tabs with soft transitioning
+				effect. Explained propriety
+				of out perpetual his you.</h1></div>
+				<div class="containerantrasvidurystekstas"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+					bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+					justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+					penatibus et magnis dis parturient montes.
+					<br>
+					<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+					bibendum laoreet.</h2></div>
+					</div>
+			<div class="containerantrasdesine">
+			<div class="containerantrasdesinevirsus">
+			<div class="containerantrasdesinevirsusfotokaire"></div>
+			<div class="containerantrasdesinevirsusfotodesine"></div>
+			</div>
+			<div class="containerantrasdesineapacia"></div>
+	</div>
+</div>
+</div>
+
+</div>
+<!-- If we need navigation buttons --> 
+															 <div class="swiper-button-prev"></div> 
+															<div class="swiper-button-next"></div> 
+
+</div>
+</div>
+		<div class="container-trecias" id="container-trecias">
 
 			<div class="containertreciaskaire"></div>
 			<div class="containertreciasdesine">
@@ -130,7 +216,7 @@
 							</div>
 						</div>
 			
-		<div class="container-ketvirtas">
+		<div class="container-ketvirtas" id="container-ketvirtas">
 				<div class="containerketvirtaspirmas"><h8>WHY THIS IS AWESOME</h8></div>
 						<div class="juostarozine"></div>
 						<div class="containerketvirtasvidurys"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
@@ -146,7 +232,7 @@
 								ibendum laoreet.</h4></div>
 		</div>
 	</div>
-		<div class="container-penktas">
+		<div class="container-penktas" id="container-penktas">
 			<div class="containerpenktaspirmas"><h1>PRICING OPTIONS</h1></div>
 			<div class="juostazalia"></div>
 			<div class="containerpenktastrecias"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2></div>
@@ -180,114 +266,160 @@
 			</div>
 
 		</div>
-		<div class="container-sestas">
+		<div class="container-sestas" id="container-sestas">
 			<div class="containersestaspirmas"><h8>WHAT OUR CUSTOMERS ARE SAYING</h8></div>
 			<div class="juostamelyna"></div>
-			<div class="containersestastrecias">
-					<div class="containersestastreciaspirmas">
-				<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
-					consectetur adipisicing elit.
-					Doloribus accusamus
-					expedita repellat similique 
-					odio aspernatur ex.</p></div>
-					<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
-				</div>
-				<div class="containersestastreciaspirmas">
-						<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+				
+				<div class="swiper-slide">
+						<div class="containersestastreciaspirmaspirmastekstas"><p>1 Lorem ipsum dolor sit amet, 
 							consectetur adipisicing elit.
 							Doloribus accusamus
 							expedita repellat similique 
 							odio aspernatur ex.</p></div>
 							<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
 						</div>
-						<div class="containersestastreciaspirmas">
-								<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
-									consectetur adipisicing elit.
-									Doloribus accusamus
-									expedita repellat similique 
-									odio aspernatur ex.</p></div>
-									<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+				<div class="swiper-slide">
+						<div class="containersestastreciaspirmaspirmastekstas"><p>2 Lorem ipsum dolor sit amet, 
+								consectetur adipisicing elit.
 									
-								</div>
+									odio aspernatur ex.</p></div>
+									<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>	
+							</div>
 
-								<!-- <div class="containersestastreciaspirmas">
-										<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
+						<div class="swiper-slide">
+								<div class="containersestastreciaspirmaspirmastekstas"><p>3 Lorem ipsum dolor sit amet, 
 											consectetur adipisicing elit.
 											Doloribus accusamus
 											expedita repellat similique 
 											odio aspernatur ex.</p></div>
-											<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
-										</div>
-										<div class="containersestastreciaspirmas">
-												<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
+							<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+								</div>
+								<div class="swiper-slide">
+										<div class="containersestastreciaspirmaspirmastekstas"><p>4 Lorem ipsum dolor sit amet, 
 													consectetur adipisicing elit.
-													Doloribus accusamus
-													expedita repellat similique 
-													odio aspernatur ex.</p></div>
-													<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
-												</div>
-												<div class="containersestastreciaspirmas">
-														<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
+													</p></div>
+									<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+										</div>
+						<div class="swiper-slide">
+									<div class="containersestastreciaspirmaspirmastekstas"><p>5 Lorem ipsum dolor sit amet, 
 															consectetur adipisicing elit.
-															Doloribus accusamus
-															expedita repellat similique 
+															 
 															odio aspernatur ex.</p></div>
 															<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
 														</div>
-														<div class="containersestastreciaspirmas">
-																<div class="containersestastreciaspirmaspirmastekstas"><p>Lorem ipsum dolor sit amet, 
+						<div class="swiper-slide">
+									<div class="containersestastreciaspirmaspirmastekstas"><p>6 Lorem ipsum dolor sit amet, 
 																	consectetur adipisicing elit.
 																	Doloribus accusamus
 																	expedita repellat similique 
 																	odio aspernatur ex.</p></div>
 																	<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
-																</div> -->
+																</div>
+						<div class="swiper-slide">
+									<div class="containersestastreciaspirmaspirmastekstas"><p>7 Lorem ipsum dolor sit amet, 
+																			
+																			
+																			odio aspernatur ex.</p></div>
+																			<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+																		</div>
+						<div class="swiper-slide">
+									<div class="containersestastreciaspirmaspirmastekstas"><p>8 Lorem ipsum dolor sit amet, 
+																					consectetur adipisicing elit.
+																					Doloribus accusamus
+																					expedita repellat similique 
+																					odio aspernatur ex.</p></div>
+																					<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+																				</div>
+
+						<div class="swiper-slide">
+								<div class="containersestastreciaspirmaspirmastekstas"><p>9 Lorem ipsum dolor sit amet, 
+																							
+																							expedita repellat similique 
+																							odio aspernatur ex.</p></div>
+																							<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+																						</div>
+
+						<div class="swiper-slide">
+								<div class="containersestastreciaspirmaspirmastekstas"><p>10 Lorem ipsum dolor sit amet, 
+																									consectetur adipisicing elit.
+																									Doloribus accusamus
+																									expedita repellat similique 
+																									odio aspernatur ex.</p></div>
+																									<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+																								</div>
+						<div class="swiper-slide">
+							<div class="containersestastreciaspirmaspirmastekstas"><p>11 Lorem ipsum dolor sit amet, 
+																											consectetur adipisicing elit.
+																											</p></div>
+																											<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+																										</div>
+						<div class="swiper-slide">
+							<div class="containersestastreciaspirmaspirmastekstas"><p>12 Lorem ipsum dolor sit amet, 
+																													consectetur adipisicing elit.
+																													Doloribus accusamus
+																													expedita repellat similique 
+																													odio aspernatur ex.</p></div>
+																													<div class="containersestastreciaspirmaspirmaskas"><h3>Jeremy H.<br><a>Manager</a></h3></div>
+																												</div>
+															</div>
+															<!-- If we need pagination --> 
+															<div class="swiper-pagination"></div>
+														
+															<!-- If we need navigation buttons --> 
+															 <!-- <div class="swiper-button-prev"></div> 
+															<div class="swiper-button-next"></div> --> 
+														
+															<!-- If we need scrollbar -->
+															 <!-- <div class="swiper-scrollbar"></div>  -->
+														 </div>
 					
 			</div>
-			<div class="containersestasapatinis">
-				<div class="containersestasapatinisrutuliukai"></div>
-				<div class="containersestasapatinisrutuliukai"></div>
-				<div class="containersestasapatinisrutuliukai"></div>
-				<div class="containersestasapatinisrutuliukai"></div>
-				</div>
-			</div>
+			
+		
 
-		</div>
-		<div class="container-septintas">
+		
+		<div class="container-septintas" id="container-septintas">
 				<div class="containerseptintaspirmas"><h1>CONTACT US</h1></div>
 				<div class="juostamelyna"></div>
 				<div class="containerseptintastrecias"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2></div>
+				
 				<div class="send">
 						<br><br>
+						<form action="/action_page.php">
 								 <input type="text" name="FirstName" placeholder="first name"><br>
-								<div class="juostasubmit"></div>
+								
 								<input type="text" name="LastName" placeholder="last name"><br>
-								<div class="juostasubmit"></div>
+								
 								<input type="text" name="email" placeholder="email"><br>
-								</form>
-								<div class="juostasubmit"></div>
+								
+							
 								
 								<div class="custom-radio">
-										<input type="radio" id="radio_1" name="radio-label" value="1">
-										<label for="radio_1">
+										<input type="radio" id="radio_3" name="radio-label" value="1">
+										<label for="radio_3">
 										  <div class="radio-circle"></div>
+										 
+
 										  <h6>PERSONAL</h6>
 										</label>
 									  </div>
 									  
 									  <div class="custom-radio">
-										<input type="radio" id="radio_2" name="radio-label" value="2">
-										<label for="radio_2">
+										<input type="radio" id="radio_4" name="radio-label" value="2">
+										<label for="radio_4">
 										  <div class="radio-circle"></div>
 										  <h6>COMPANY</h6>
 										</label>
 									  </div>
-							<div class="submitassend"><h13>SEND</h13></div>
-					</div>
+							<input type="submit" value="SEND">
+							</form>		
+								</div>
 		</div>
-		<div class="container-astuntas">
+		<div class="container-astuntas" >
 						
-									<div class="astuntastekstas"><h12>© 2019 Cheshire County</h12></div>
+			<div class="astuntastekstas"><h12>© 2019 Cheshire County</h12></div>
 				<div class="containerastuntaskaire">
 				<div class="navifooterfacebook"></div>
 				<div class="navifooterinstagram"></div>
@@ -299,6 +431,7 @@
 		</div>
 </div>
 </div>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>

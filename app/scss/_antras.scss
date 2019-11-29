@@ -1,13 +1,16 @@
 .container-antras {
     margin: 0 auto;
     max-width: 1400px;
+    height: 640px;
       border:2px solid red;
       display: flex;
       background-image: url("christoffer-engstrom-503481-unsplash-compressor.jpg");
       background-repeat: no-repeat;
       justify-content: center;
       position: relative;
-      z-index: -1;
+      justify-content: space-between;
+      align-items: center;
+      // z-index: -1;
       }
       .container-antrasfonas{
         background: linear-gradient(#E27866,#6696E2) ;
@@ -17,17 +20,18 @@
         height: 640px;
         position: absolute;
         display: inline-block;
-     z-index: -1; 
+   //   z-index: 0; 
     }
 
  .containerantrasvidurys {
     margin: 0 auto;
-    max-width: 400px;
+    width: 450px;
       border:2px solid blue;
+      // padding-top: 30px;
       }
  .containerantraskaire {
     margin-left:150px ;
-    max-width: 400px;
+   //  max-width: 400px;
       border:2px solid yellow;
       display: flex;
       flex-direction: column;
@@ -35,19 +39,22 @@
        }
  .containerantraskairetekstas {
     margin: 20px;
-    max-width: 100px;
-      max-height: 100px;
+    width: 100px;
+      height: 100px;
       border:2px solid red;
       background-color: #E27866;
+      // text-align: center;
+      
      
       }
  .containerantrasdesine {
-    margin-right: 150px;
-    max-width: 400px;
+   //  margin-right: 150px;
+   //  max-width: 400px;
          border:2px solid red;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 50px;
     //   margin:0 auto;
       }
  .containerantrasdesinevirsus {
@@ -62,7 +69,10 @@
       background-image: url("photo-darzoves.jpg");
       background-size: cover;
       background-position: center;
+      position: relative;
       margin: 10px;
+      cursor: pointer;
+      transition: 0.5 ease-in-out;
     }
  .containerantrasdesinevirsusfotodesine {
        width: 170px;
@@ -71,15 +81,99 @@
       background-image: url("photo-kopustas.jpg");
       background-position: center;
       background-size: cover;
+      position: relative;
       margin: 10px;
      }
  .containerantrasdesineapacia {
     margin:0 auto;
     width: 360px;
    height: 170px;
+   position: relative;
       border:2px solid red;
       background-image: url("photo-batai.jpg");
       background-repeat: no-repeat;
       background-size: cover;       
  }
 
+ .swiper-container-antras {
+   width: 500px;
+   //  height: 800px;
+   //  padding-bottom: 150px;
+   // margin-right: 150px;
+  
+  
+   
+
+}
+// .swiper-slide-2 {
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: flex-end;
+    
+  
+// }
+
+.slide2 {
+   display: flex;
+   width: 1000px;
+}
+
+
+.containerantrasdesinevirsusfotokaire:hover:after {
+ 
+   opacity: 0.8;
+   
+  
+}
+
+.containerantrasdesinevirsusfotodesine:hover:after {
+ 
+   opacity: 0.8;
+   
+  
+}
+.containerantrasdesinevirsusfotokaire::after{
+   content: "Explore";
+   width: 170px;
+   height: 170px;
+   background-color:#E27866;
+   opacity: 0;
+   position: absolute;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   
+    
+}
+.containerantrasdesinevirsusfotodesine::after{
+   content: "Explore";
+   width: 170px;
+   height: 170px;
+   background-color:#E27866;
+   opacity: 0;
+   position: absolute;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   
+    
+}
+.containerantrasdesineapacia:hover:after {
+ 
+   opacity: 0.8;
+   
+  
+}
+.containerantrasdesineapacia::after{
+   content: "Explore";
+   width: 360px;
+   height: 170px;
+   background-color:#E27866;
+   opacity: 0;
+   position: absolute;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   
+    
+}
