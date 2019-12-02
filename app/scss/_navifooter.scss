@@ -4,7 +4,7 @@
         width: 30px;
         height: 30px;
      margin-left: 10px;
-        border: 2px solid blue;
+        // border: 2px solid blue;
         background-image: url("facebook-logo.svg");
         background-repeat: no-repeat;
         background-position: center center;
@@ -17,7 +17,7 @@
         width: 30px;
         height: 30px;
       
-        border: 2px solid blue;
+        // border: 2px solid blue;
         background-image: url("instagram-logo.svg");
         background-repeat: no-repeat;
         background-position: center center;
@@ -29,7 +29,7 @@
         width: 30px;
         height: 30px;
     
-        border: 2px solid blue;
+        // border: 2px solid blue;
         background-image: url("twitter.svg");
         background-repeat: no-repeat;
         background-position: center center;
@@ -40,7 +40,7 @@
         width: 30px;
         height: 30px;
       
-        border: 2px solid blue;
+        // border: 2px solid blue;
         background-image: url("pinterest.svg");
         background-repeat: no-repeat;
         background-position: center center;
@@ -51,7 +51,7 @@
         width: 30px;
         height: 30px;
        margin-right: 10px;
-        border: 2px solid blue;
+        // border: 2px solid blue;
         background-image: url("Group 87.svg");
         background-repeat: no-repeat;
         background-position: center center;
@@ -61,21 +61,20 @@
       }
 
       .containerpirmastreciasdesine {
-        width: 100%;
+        width: 50%;
         max-width: 600px;
-         border:2px solid green;
+        //  border:2px solid green;
          display: flex;
      justify-content:space-around;
      align-items: center;
-     
         }
       .containerastuntaskaire {
-        width: 100%;
-        max-width: 600px;
-         border:2px solid green;
+        width: 50%;
+        // max-width: 600px;
+        //  border:2px solid green;
          display: flex;
      justify-content:space-around;
-     margin-left: 150px;
+    //  margin-left: 150px;
      align-items: center;
         }
 

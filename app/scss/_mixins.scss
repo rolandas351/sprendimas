@@ -1,6 +1,4 @@
 @media (max-width:800px) {
-               
-           
             .container-pirmas-nav{
                 flex-direction: column;
             }
@@ -10,44 +8,59 @@
             .containerpirmassekantis {
                 flex-direction: column;
             }
-.containerantrasdesine {
-    margin: 0 auto;
-}
-            .container-antras, .container-trecias {
-                flex-direction: column;
-               
+            .containerastuntaskaire {
+                margin-left: 10px;
             }
-
+            .container-antras, .container-trecias {
+                flex-direction: column; 
+            }
+.containerpirmastreciaskaire{
+    margin-left: 10px;
+}
+.containerpirmastreciasdesine {
+    margin-right: 10px;
+}
+.astuntastekstas {
+    margin-right: 20px;
+}
 .h1, h8 {
     font-size: 16px;
 }
 .menu-desktop {
     opacity: 0;
 }
-
 .menu-mobile {
-    opacity:0;
+    opacity:0;  
 }
-
-
+.swiper-pagination-bullet {
+    display: none;
 }
-          
-      
-        
-    
-    
-   
-    @media (min-width:800px) {
-      
+}       
+    @media (min-width:800px) {   
   .menu-desktop {
       opacity: 1;
   }
-
   .menu-mobile {
       opacity:0;
   }
-
   .mobile-burger {
       opacity: 0;
   }
+  .containerantraskaire {
+    flex-direction: column;
+    margin-left:10px;
+}
+.containerpirmastreciaskaire{
+    margin-left: 120px;;
+}   
+.containerantraskaire {
+    margin-left: 120px;
+}
+.containerpirmastreciasdesine{
+    margin-right: 120px;;
+}   
+
+    .astuntastekstas {
+        margin-right: 120px;
+    }
     }

@@ -3,7 +3,7 @@
     margin: 0 auto;
     max-width: 1400px;
     height: 120px;
-      border:2px solid red;
+      // border:2px solid red;
       background-color: black;
       display: flex;
       flex-direction: row-reverse;
@@ -14,5 +14,6 @@
 
     .astuntastekstas {
         opacity: 0.5;
-        margin-right: 150px;
+        // margin-right: 120px;
+    //     align-content: center;
     }

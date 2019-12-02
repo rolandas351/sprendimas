@@ -2,7 +2,7 @@
  .container-trecias {
     margin: 0 auto;
     max-width: 1400px;
-      border:2px solid red;
+      // border:2px solid red;
       display: flex;
       background-color: #1C1C1C;
       justify-content: space-around;
@@ -10,7 +10,7 @@
     }
     .containertreciasdesine {
         width: 400px;
-          border:2px solid red;
+          // border:2px solid red;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
@@ -19,7 +19,7 @@
      .containertreciaskaire {
         width: 400px;
         height: 170px;
-          border:2px solid green;
+          // border:2px solid green;
           background-image: url("Group85.svg");
         background-size: cover;
         background-position: center center;   
@@ -29,20 +29,20 @@
         margin: 20px;
         max-width: 270px;
         max-height: 100px;
-          border:2px solid red; 
+          // border:2px solid red; 
      }
      .containertreciasdesinevidurys {
         margin: 20px;
         max-width: 400px;
         max-height: 100px;
-          border:2px solid red;
+          // border:2px solid red;
      }
 .containertreciasdesineapaciapirmas, .containertreciasdesineapaciaantras  {
     margin: 20px;
     margin-left: 80px;
     max-width: 400px;
     max-height: 100px;
-      border:2px solid red;
+      // border:2px solid red;
       position: relative;
 }
 .containertreciasdesineapaciapirmas::before {
@@ -50,7 +50,7 @@
     background-image: url("Path 81.svg");
     width: 50px;
     height: 50px;
-    border: 2px solid green;
+    // border: 2px solid green;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
@@ -65,7 +65,7 @@
     background-image: url("Path 82.svg");
     width: 50px;
     height: 50px;
-    border: 2px solid green;
+    // border: 2px solid green;
     border-radius: 50%;
     display: inline-block;
     position: absolute;

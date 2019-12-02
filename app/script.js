@@ -1,22 +1,20 @@
 'use strict'
-// function myFunction(features) {
-//     var features = document.getElementById("container-pirmas");
-//     features.scrollIntoView();
-//   }
 
-var mySwiper1 = new Swiper ('.swiper-container', {
+
+var mySwiper1 = new Swiper ('.swiper-container ', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
     slidesPerView: 2,
-    spaceBetween: 120,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: true,
-    },
+    spaceBetween: -500,
+    // autoplay: {
+    //   delay: 1000,
+    //   disableOnInteraction: true,
+    // },
     breakpoints: {
-      600: {
-        slidesPerView: 3
+      800: {
+        slidesPerView: 3,
+        spaceBetween: 120,
       },
     },
 
@@ -38,27 +36,56 @@ var mySwiper1 = new Swiper ('.swiper-container', {
 // 2 lape
   var mySwiper2 = new Swiper ('.swiper-container-antras', {
     // Optional parameters
-    direction: 'horizontal',
-    loop: true,
+    direction: 'vertical',
+    loop: false,
     slidesPerView: 1,
-    spaceBetween: 800,
+    spaceBetween: 120,
     clickable: true,
     // autoplay: {
     //   delay: 1000,
     //   disableOnInteraction: true,
     // },
     breakpoints: {
-      1000: {
-        slidesPerView: 1
+      800: {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        spaceBetween: 120,
+        loop: false,
       },
     },
 
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      // nextEl: '.containerantraskairetekstas ',
+      // prevEl: '.containerantraskairetekstas ',
     },
   })
- 
+
+var slideButtons = document.querySelectorAll('.containerantraskairetekstas');
+for (var button of slideButtons) {
+  button.addEventListener('click', function() {
+    console.log(this.dataset.slide);
+    mySwiper2.slideTo(this.dataset.slide);
+  });
+}
+
+var header = document.getElementById("containerantraskaire");
+var button = header.getElementsByClassName("containerantraskairetekstas");
+for (var i = 0; i < button.length; i++) {
+  button[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) { 
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+
+
+
+
+
+
+
 
   
 
